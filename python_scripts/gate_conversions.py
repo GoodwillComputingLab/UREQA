@@ -1,7 +1,7 @@
 # The following circuit conversions can be used to predict the error rates of gates and approximate circuit success probability
 # All Qiskit standard gates can be represented in terms of 'h', rx', 'ry', 'rz', 'ch', 'crx', 'cry', and 'crx'
 # For example, if s gate is applied to qubit a, predict the error rate of applying the 'rz' operation of qubit a
-# If swap gate is applied to link a-b, then predict the error rate (1 - success rate) of applying the 'crx' operation to link a-b and cube the success rate to get the overall success rate of the swap operation
+# If swap gate is applied to link a-b, then predict the error rate (1 - success rate) of applying the 'crx' operation to link a-b and take the cube of the success rate to get the overall success rate of the swap operation
 
 #### Single-qubit gates
 
